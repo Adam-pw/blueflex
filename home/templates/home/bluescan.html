@@ -1,17 +1,21 @@
 {% extends "home/base.html" %} {% block content %} {% load static %}
 <style>
-  .w3l-main-slider{
+  .w3l-main-slider {
     height: 100vh !important
   }
-  .w3l-main-slider .companies20-content{
+
+  .w3l-main-slider .companies20-content {
     height: 100% !important;
   }
-  .owl-one.owl-carousel.owl-theme{
+
+  .owl-one.owl-carousel.owl-theme {
     height: 100% !important;
   }
-  .owl-one.owl-carousel.owl-theme .item{
+
+  .owl-one.owl-carousel.owl-theme .item {
     height: 100% !important;
   }
+
   .w3l-main-slider .banner-view:before {
     content: "";
     background: #00000010;
@@ -22,86 +26,110 @@
     right: 0;
     z-index: -1;
   }
-  .cwp4-text h3{
+
+  .cwp4-text h3 {
     color: #d19537" !important;
+
   }
-  .owl-theme .owl-nav [class*=owl-]{
+
+  .owl-theme .owl-nav [class*=owl-] {
     background: var(--title-color) !important;
     opacity: 0.2 !important;
   }
-  .owl-theme .owl-nav [class*=owl-]:hover{
+
+  .owl-theme .owl-nav [class*=owl-]:hover {
     opacity: 0.8 !important;
   }
-  .nav-item a{
+
+  .nav-item a {
     color: white;
   }
-  .nav-item a:hover{
+
+  .nav-item a:hover {
     color: #1e1c59;
   }
-  .navbar-brand{
+
+  .navbar-brand {
     margin-right: 0 !important;
   }
-  .w3l-bootstrap-header .form-inline .search{
+
+  .w3l-bootstrap-header .form-inline .search {
     padding: 4px;
     padding-left: 12px;
     padding-right: 32px;
     font-size: 14px;
   }
-  .w3l-bootstrap-header .form-inline .search::placeholder{
+
+  .w3l-bootstrap-header .form-inline .search::placeholder {
     color: #ffffff80;
     font-weight: 500;
   }
-  .w3l-bootstrap-header button.btn-search{
+
+  .w3l-bootstrap-header button.btn-search {
     font-size: 12px;
   }
-  .w3l-bootstrap-header .navbar-light .navbar-nav .nav-link{
+
+  .w3l-bootstrap-header .navbar-light .navbar-nav .nav-link {
     border-bottom: 2px solid transparent;
   }
-  .w3l-bootstrap-header .navbar-light .navbar-nav .nav-link:hover, .w3l-bootstrap-header .navbar-light .navbar-nav .nav-link:focus{
+
+  .w3l-bootstrap-header .navbar-light .navbar-nav .nav-link:hover,
+  .w3l-bootstrap-header .navbar-light .navbar-nav .nav-link:focus {
     color: #1e1c59 !important;
     border-color: #1e1c59;
   }
-  @media screen and (min-width: 1200px){
-    .navbar.navbar-expand-lg .container{
+
+  @media screen and (min-width: 1200px) {
+    .navbar.navbar-expand-lg .container {
       max-width: 1200px !important;
     }
   }
+
   @media screen and (min-width: 768px) {
-    .navbar{
+    .navbar {
       border-radius: 0 !important;
       border: none !important;
     }
-    .navbar-nav>li>a{
+
+    .navbar-nav>li>a {
       padding-bottom: 4px !important;
       margin-bottom: 8px !important;
     }
-    .navbar .container{
+
+    .navbar .container {
       width: 100%;
       justify-content: space-between;
     }
   }
-    @media screen and (max-width: 768px) {
+
+  @media screen and (max-width: 768px) {
     .w3l-main-slider {
       height: auto !important;
     }
-    .w3l-features-1 .feature-gd{
+
+    .w3l-features-1 .feature-gd {
       background-color: transparent !important;
       padding: 0 !important;
     }
-    .w3l-main-slider .banner-view{
+
+    .w3l-main-slider .banner-view {
       /*height: auto !important;*/
       min-height: unset !important;
       height: 30vh;
     }
-    .w3l-main-slider .companies20-content{
-    height: auto !important;
-    }
-    .owl-one.owl-carousel.owl-theme{
+
+    .w3l-main-slider .companies20-content {
       height: auto !important;
     }
-    .owl-one.owl-carousel.owl-theme .item{
+
+    .owl-one.owl-carousel.owl-theme {
       height: auto !important;
     }
+
+    .owl-one.owl-carousel.owl-theme .item {
+      height: auto !important;
+    }
+
     .w3l-main-slider .banner-view:before {
       height: auto !important;
       min-height: auto !important;
@@ -115,28 +143,20 @@
     <div class="owl-one owl-carousel owl-theme">
       <div class="item">
         <li>
-          <div
-            class="slider-info banner-view banner-top1 bg bg2"
-            style="
+          <div class="slider-info banner-view banner-top1 bg bg2" style="
               background: url(media/image/bluescan.PNG) no-repeat center !important;
               background-size: contain !important;
               object-fit: cover !important;
-            "
-            data-selector=".bg.bg2"
-          ></div>
+            " data-selector=".bg.bg2"></div>
         </li>
       </div>
       <div class="item">
         <li>
-          <div
-            class="slider-info banner-view banner-top1 bg bg2"
-            style="
+          <div class="slider-info banner-view banner-top1 bg bg2" style="
               background: url(media/image/bluescan.PNG) no-repeat center !important;
               background-size: contain !important;
               object-fit: cover !important;
-            "
-            data-selector=".bg.bg2"
-          ></div>
+            " data-selector=".bg.bg2"></div>
         </li>
       </div>
     </div>
@@ -215,10 +235,7 @@
   <br />
   <br />
   <section class="w3l-bottom-grids-6 py-5" id="miceservices">
-    <div
-      class="container py-lg-5 py-md-4 py-sm-4 py-xs-4"
-      style="background: #d19537; padding: 20px 15px"
-    >
+    <div class="container py-lg-5 py-md-4 py-sm-4 py-xs-4" style="background: #d19537; padding: 20px 15px">
       <!-- <h6 class="title-small text-center" style="color:#1e1c59;">Our Services</h6> -->
       <h3 class="title-big mb-md-5 mb-4 text-center" style="color: #ffffff">
         Features
@@ -228,8 +245,8 @@
           <div class="area-box">
             <!-- <span class="fa fa-retweet mt-0"></span> -->
             <h5>
-              <a href="#feature" class="title-head" style="color: #ffffff"
-                >- Al Technology, much smarter, Improve a lot of scanning
+              <a href="#feature" class="title-head" style="color: #ffffff">- Al Technology, much smarter, Improve a lot
+                of scanning
                 experience
               </a>
             </h5>
@@ -241,8 +258,8 @@
           <div class="area-box">
             <!-- <span class="fa fa-retweet mt-0"></span> -->
             <h5>
-              <a href="#feature" class="title-head" style="color: #ffffff"
-                >- 3 Different tips Can Fulfill Various Applications
+              <a href="#feature" class="title-head" style="color: #ffffff">- 3 Different tips Can Fulfill Various
+                Applications
               </a>
             </h5>
           </div>
@@ -252,8 +269,8 @@
           <div class="area-box">
             <!-- <span class="fa fa-retweet mt-0"></span> -->
             <h5>
-              <a href="#feature" class="title-head" style="color: #ffffff"
-                >- Clear margin line, full HD color, high accuracy
+              <a href="#feature" class="title-head" style="color: #ffffff">- Clear margin line, full HD color, high
+                accuracy
               </a>
             </h5>
             <br />
@@ -264,8 +281,7 @@
           <div class="area-box">
             <!-- <span class="fa fa-retweet mt-0"></span> -->
             <h5>
-              <a href="#feature" class="title-head" style="color: #ffffff"
-                >- Fast scanning speed, easy to learn and use
+              <a href="#feature" class="title-head" style="color: #ffffff">- Fast scanning speed, easy to learn and use
               </a>
             </h5>
           </div>
@@ -274,8 +290,7 @@
           <div class="area-box">
             <!-- <span class="fa fa-retweet mt-0"></span> -->
             <h5>
-              <a href="#feature" class="title-head" style="color: #ffffff"
-                >- Much smaller, very easy to operate
+              <a href="#feature" class="title-head" style="color: #ffffff">- Much smaller, very easy to operate
               </a>
             </h5>
             <br />
@@ -286,8 +301,7 @@
           <div class="area-box">
             <!-- <span class="fa fa-retweet mt-0"></span> -->
             <h5>
-              <a href="#feature" class="title-head" style="color: #ffffff"
-                >- Power-free and true color scan
+              <a href="#feature" class="title-head" style="color: #ffffff">- Power-free and true color scan
               </a>
             </h5>
           </div>
@@ -300,17 +314,12 @@
       <div class="container py-md-3">
         <h3>Specifications</h3>
         <br />
-        <img
-          src="media/image/diagram.png"
-          style="
+        <img src="media/image/diagram.png" style="
             display: block;
             margin-left: auto;
             margin-right: auto;
             width: 75%;
-          "
-          class="img-fluid"
-          alt=""
-        />
+          " class="img-fluid" alt="" />
       </div>
     </div>
   </section>
@@ -319,17 +328,17 @@
       <div id="content-with-photo4-block" class="pt-5">
         <div class="container py-md-3">
           <h3>Videos :</h3>
-              <br>
+          <br>
         </div>
       </div>
       <div class="container">
         <div class="column">
           <div class="col-auto mb-4">
             <div class="card" style="width: 50vw;">
-              <iframe style="height: 40vh;" src="https://www.youtube.com/embed/tgbNymZ7vqY">
+              <iframe style="height: 40vh;" src="https://www.youtube.com/embed/faZBMcf525I">
               </iframe>
               <div class="card-body">
-                <h6>Video Title</h6>
+                <h5>BlueFlex - BlueScan</h5>
               </div>
             </div>
           </div>
@@ -345,17 +354,12 @@
         <h3>Key Features</h3>
         <br />
         <div style="background: #d19537">
-          <img
-            src="static/images/bluescan1.PNG"
-            style="
+          <img src="static/images/bluescan1.PNG" style="
               display: block;
               margin-left: auto;
               margin-right: auto;
               width: 50%;
-            "
-            class="img-fluid"
-            alt=""
-          />
+            " class="img-fluid" alt="" />
         </div>
       </div>
     </div>
@@ -366,11 +370,7 @@
       <div class="row">
         <div class="col-auto mb-3">
           <div class="card" style="width: 15rem">
-            <img
-              class="card-img-top"
-              src="static/images/bs1 (1).png"
-              alt="Card image cap"
-            />
+            <img class="card-img-top" src="static/images/bs1 (1).png" alt="Card image cap" />
             <div class="card-body">
               <h4 class="card-title">Efficient Treatment Experience</h4>
               <p class="card-text">
@@ -386,11 +386,7 @@
         </div>
         <div class="col-auto mb-3">
           <div class="card" style="width: 15rem">
-            <img
-              class="card-img-top"
-              src="static/images/bs1 (2).png"
-              alt="Card image cap"
-            />
+            <img class="card-img-top" src="static/images/bs1 (2).png" alt="Card image cap" />
             <div class="card-body">
               <h4 class="card-title">Accurate Shoulder Margin</h4>
               <p class="card-text">
@@ -404,11 +400,7 @@
         </div>
         <div class="col-auto mb-3">
           <div class="card" style="width: 15rem">
-            <img
-              class="card-img-top"
-              src="static/images/bs1 (3).png"
-              alt="Card image cap"
-            />
+            <img class="card-img-top" src="static/images/bs1 (3).png" alt="Card image cap" />
             <div class="card-body">
               <h4 class="card-title">Convenient Preparation Check</h4>
               <p class="card-text">
@@ -425,11 +417,7 @@
         </div>
         <div class="col-auto mb-3">
           <div class="card" style="width: 15rem">
-            <img
-              class="card-img-top"
-              src="static/images/bs1 (4).png"
-              alt="Card image cap"
-            />
+            <img class="card-img-top" src="static/images/bs1 (4).png" alt="Card image cap" />
             <div class="card-body">
               <h4 class="card-title">Revolutionary Improvement</h4>
               <p class="card-text">
